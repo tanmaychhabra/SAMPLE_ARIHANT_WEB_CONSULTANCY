@@ -1,0 +1,154 @@
+body
+ {
+    position: relative; 
+ }
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section5 {padding-top:10px;height:260px; background-color:yellow;}
+  #section6 {padding-top:20px;height:410px; background-color:white;}
+  #section7 {padding-top:90px;height:600px; background-color:yellow;}
+  #section8 {padding-top:50px;height:250px; background-color:white;}
+  
+  p,h1
+  {
+      align-items: center;
+      text-align: center;
+      align-content: center;
+  }
+
+  .courses
+  {
+      font-size: 45px;
+  }
+  
+  .row
+  {
+      margin-left: auto;
+      margin-right: auto;
+      
+  }
+
+  .form1
+  {
+      background-color: white;
+      align-items: center;
+      margin: auto;
+      width: 455px;
+      height:390px;
+      padding-bottom: 0px;
+      padding-right: 20px;
+      padding-left: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin-bottom: 0%;
+  }
+
+  input[type=text]
+  {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding-top: 10px;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+  }
+  
+  input
+  {
+      padding: 18px 8px;
+      padding-top: 20px;
+      display:block;
+      color: grey;
+  }
+
+  b
+  {
+      padding-left: 10px;
+  }
+
+  .button
+  {
+     position: relative; 
+    display:block;
+    padding-top: 10px;
+    padding-left: 0px;
+    border-radius: 4px;
+    margin-top: 20px;
+      background-color: tomato;
+      color: whitesmoke;
+      border-color: tomato;
+      width:100%;
+  }
+
+  .button:hover {
+      background-color: transparent ;
+  }
+
+  .courseButton1
+  {
+      position: absolute;
+      display: inline-block;
+      background-color: azure;
+      border: none;
+      text-align: center;
+      padding: 16px;
+      display: block;
+      border-radius: 14px;
+  }
+
+  .courseButton2
+  {
+    position: absolute;
+    display: inline-block;
+    background-color: azure;
+    border: none;
+    text-align: center;
+    padding: 16px;
+    display: block;
+    border-radius: 14px;
+ }
+
+.courseButton3
+{
+    position: absolute;
+    display: inline-block;
+    background-color: azure;
+    border: none;
+    text-align: center;
+    padding: 16px;
+    display: block;
+    border-radius: 14px;
+}
+
+.newHR1
+{
+    border-top: 1px dashed grey;
+    width: 90px;
+    margin-left: 449px;
+    position: absolute;
+}
+
+.newHR2
+{
+    border-top: 1px dashed grey;
+    width: 83px;
+    margin-left: 675px;
+    position: absolute;
+}
+
+hr[class="newHR1"]::after{
+    content: "\003E";
+    color: black;
+    margin-left: 520px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+hr[class="newHR1"]::after{
+    content: "\003E";
+    color: black;
+    margin-left: 520px;
+    margin-top: 20px;
+    width: 100px;
+}
